@@ -20,8 +20,14 @@ The generator of the pix2pix cGAN is a modified U-Net. A U-Net consists of an en
 Each block in the encoder is: Convolution -> Batch normalization -> Leaky ReLU
 Each block in the decoder is: Transposed convolution -> Batch normalization -> Dropout (applied to the first 3 blocks) -> ReLU
 There are skip connections between the encoder and decoder (as in the U-Net).
-![alt text](https://miro.medium.com/max/626/1*qckzBmbO9vW__8JF0os_Rw.png)
-![alt text](https://miro.medium.com/max/564/1*hMh9TL1lRsBlXDL9FTsdFw.png)
+
+
+<p align="center">
+  <img width="200" src="https://miro.medium.com/max/626/1*qckzBmbO9vW__8JF0os_Rw.png" alt="U-net architecture">
+</p>
+<p align="center">
+  <img width="200" src="https://miro.medium.com/max/564/1*hMh9TL1lRsBlXDL9FTsdFw.png" alt="Generator">
+</p>
 
 ### Building the PatchGAN discriminator:
 
