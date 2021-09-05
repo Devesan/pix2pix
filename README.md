@@ -47,8 +47,8 @@ The input image and the target image, which it should classify as real.
 The input image and the generated image (the output of the generator), which it should classify as fake.
 Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
 
-<p align="center">
-  <img style="!background-color: #b6c2d4" width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
+<p style="!background-color: #b6c2d4" align="center">
+  <img  width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
   <br>
   <h4 align="center">Training Procedure</h4>
 </p>
