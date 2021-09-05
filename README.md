@@ -53,6 +53,8 @@ Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
   <h4 align="center">Training Procedure</h4>
 </p>
 Some Final Results:
+
+
 ![alt text](https://miro.medium.com/max/700/1*qMiJMqyYK3GuzvckILPlSA.png)
 ![alt text](https://miro.medium.com/max/700/1*UispT1moM9zR76Wp3JHIZw.png)
 
