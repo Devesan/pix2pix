@@ -48,7 +48,7 @@ The input image and the generated image (the output of the generator), which it 
 Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
 
 <p align="center">
-  <img background-color="white" width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
+  <img style="background-color: white" width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
   <br>
   <h4 align="center">Training Procedure</h4>
 </p>
