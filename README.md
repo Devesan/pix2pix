@@ -14,7 +14,7 @@ Each image in the Train dataset contains two images concatenated together with s
 <p align="center">
   <img width="500" src="https://miro.medium.com/max/700/1*NkwLb7g7ws-o4MyTZlMWsw.png" alt="Sample image">
   <br>
-  <h4>Sample image</h4>
+  <h4 align="center">Sample image</h4>
 </p>
 
 
@@ -47,7 +47,13 @@ The input image and the target image, which it should classify as real.
 The input image and the generated image (the output of the generator), which it should classify as fake.
 Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
 
-![alt text](https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png)
+<p align="center">
+  <img width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
+  <br>
+  <h4>Training Procedure</h4>
+</p>
+
+![alt text]()
 Some Final Results:
 ![alt text](https://miro.medium.com/max/700/1*qMiJMqyYK3GuzvckILPlSA.png)
 ![alt text](https://miro.medium.com/max/700/1*UispT1moM9zR76Wp3JHIZw.png)
