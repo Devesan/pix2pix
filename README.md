@@ -12,7 +12,7 @@ A dataset of over 3500 images of both hand-drawn and its corresponding CAD image
 Each image in the Train dataset contains two images concatenated together with shape (288, 864, 3). In the data input pipeline, this image is resized to (256, 512, 3).
 
 
-![alt text]  (https://miro.medium.com/max/700/1*NkwLb7g7ws-o4MyTZlMWsw.png)
+![alt text](https://miro.medium.com/max/700/1*NkwLb7g7ws-o4MyTZlMWsw.png)
 
 
 ### Building a U-net Generator:
