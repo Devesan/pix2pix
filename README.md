@@ -20,6 +20,8 @@ The generator of the pix2pix cGAN is a modified U-Net. A U-Net consists of an en
 Each block in the encoder is: Convolution -> Batch normalization -> Leaky ReLU
 Each block in the decoder is: Transposed convolution -> Batch normalization -> Dropout (applied to the first 3 blocks) -> ReLU
 There are skip connections between the encoder and decoder (as in the U-Net).
+![alt text](https://miro.medium.com/max/626/1*qckzBmbO9vW__8JF0os_Rw.png)
+![alt text](https://miro.medium.com/max/564/1*hMh9TL1lRsBlXDL9FTsdFw.png)
 
 ### Building the PatchGAN discriminator:
 
@@ -32,8 +34,10 @@ The input image and the target image, which it should classify as real.
 The input image and the generated image (the output of the generator), which it should classify as fake.
 Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
 
-
+![alt text](https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png)
 Some Final Results:
+![alt text](https://miro.medium.com/max/700/1*qMiJMqyYK3GuzvckILPlSA.png)
+![alt text](https://miro.medium.com/max/700/1*UispT1moM9zR76Wp3JHIZw.png)
 
 Future Works:
 
