@@ -11,8 +11,11 @@ The Pix2Pix GAN has been demonstrated on a range of image-to-image translation t
 A dataset of over 3500 images of both hand-drawn and its corresponding CAD image has been created. These images were constructed from the SketchGraphs dataset which can be found here, SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in Computer-Aided Design
 Each image in the Train dataset contains two images concatenated together with shape (288, 864, 3). In the data input pipeline, this image is resized to (256, 512, 3).
 
-
-![alt text](https://miro.medium.com/max/700/1*NkwLb7g7ws-o4MyTZlMWsw.png)
+<p align="center">
+  <img width="500" src="https://miro.medium.com/max/700/1*NkwLb7g7ws-o4MyTZlMWsw.png" alt="Sample image">
+  <br>
+  <h4>Sample image</h4>
+</p>
 
 
 ### Building a U-net Generator:
@@ -23,10 +26,14 @@ There are skip connections between the encoder and decoder (as in the U-Net).
 
 
 <p align="center">
-  <img width="200" src="https://miro.medium.com/max/626/1*qckzBmbO9vW__8JF0os_Rw.png" alt="U-net architecture">
+  <img width="500" src="https://miro.medium.com/max/626/1*qckzBmbO9vW__8JF0os_Rw.png" alt="U-net architecture">
+  <br>
+  <h4>U-net architecture</h4>
 </p>
 <p align="center">
-  <img width="200" src="https://miro.medium.com/max/564/1*hMh9TL1lRsBlXDL9FTsdFw.png" alt="Generator">
+  <img width="500" src="https://miro.medium.com/max/564/1*hMh9TL1lRsBlXDL9FTsdFw.png" alt="Generator">
+  <br>
+  <h4>Generator</h4>
 </p>
 
 ### Building the PatchGAN discriminator:
