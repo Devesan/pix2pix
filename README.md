@@ -28,12 +28,12 @@ There are skip connections between the encoder and decoder (as in the U-Net).
 <p align="center">
   <img width="500" src="https://miro.medium.com/max/626/1*qckzBmbO9vW__8JF0os_Rw.png" alt="U-net architecture">
   <br>
-  <h4>U-net architecture</h4>
+  <h4 align="center">U-net architecture</h4>
 </p>
 <p align="center">
   <img width="500" src="https://miro.medium.com/max/564/1*hMh9TL1lRsBlXDL9FTsdFw.png" alt="Generator">
   <br>
-  <h4>Generator</h4>
+  <h4 align="center">Generator</h4>
 </p>
 
 ### Building the PatchGAN discriminator:
@@ -48,12 +48,10 @@ The input image and the generated image (the output of the generator), which it 
 Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
 
 <p align="center">
-  <img width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
+  <img background-color="white" width="500" src="https://miro.medium.com/max/564/1*XjPW3JhJComj_T9zr1W7ZA.png" alt="Training Procedure">
   <br>
-  <h4>Training Procedure</h4>
+  <h4 align="center">Training Procedure</h4>
 </p>
-
-![alt text]()
 Some Final Results:
 ![alt text](https://miro.medium.com/max/700/1*qMiJMqyYK3GuzvckILPlSA.png)
 ![alt text](https://miro.medium.com/max/700/1*UispT1moM9zR76Wp3JHIZw.png)
