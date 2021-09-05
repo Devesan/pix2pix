@@ -54,8 +54,7 @@ Use tf.concat([inp, tar], axis=-1) to concatenate these 2 inputs together.
 </p>
 Some Final Results:
 
-
-![alt text](https://miro.medium.com/max/700/1*qMiJMqyYK3GuzvckILPlSA.png)
+![#f03c15t](https://miro.medium.com/max/700/1*qMiJMqyYK3GuzvckILPlSA.png)
 ![alt text](https://miro.medium.com/max/700/1*UispT1moM9zR76Wp3JHIZw.png)
 
 Future Works:
